@@ -1,0 +1,60 @@
+* html body {
+	margin: 0px; background-color: rgb(255, 255, 255);
+}
+* + html body {
+	margin: 0px; background-color: rgb(255, 255, 255);
+}
+#top {
+	height: 183px;
+}
+* html #top {
+	height: 183px;
+}
+* + html #top {
+	height: 183px;
+}
+.juzhong {
+	width: 990px; margin-right: auto; margin-left: auto;
+}
+* html .juzhong {
+	width: 990px; margin-right: auto; margin-left: auto;
+}
+* + html .juzhong {
+	width: 990px; margin-right: auto; margin-left: auto;
+}
+#dbzdq {
+	width: 300px; color: rgb(255, 255, 255); text-indent: 20px; padding-top: 7px; font-family: "宋体"; font-size: 12px; float: left;
+}
+* html #dbzdq {
+	width: 300px; color: rgb(255, 255, 255); text-indent: 20px; padding-top: 7px; font-family: "宋体"; font-size: 12px; float: left;
+}
+* + html #dbzdq {
+	width: 300px; color: rgb(255, 255, 255); text-indent: 20px; padding-top: 7px; font-family: "宋体"; font-size: 12px; float: left;
+}
+#dbydq {
+	width: 470px; text-align: right; color: rgb(255, 255, 255); padding-top: 7px; padding-right: 10px; font-family: "宋体"; font-size: 12px; float: right;
+}
+* html #dbydq {
+	width: 470px; text-align: right; color: rgb(255, 255, 255); padding-top: 7px; padding-right: 10px; font-family: "宋体"; font-size: 12px; float: right;
+}
+* + html #dbydq {
+	width: 470px; text-align: right; color: rgb(255, 255, 255); padding-top: 7px; padding-right: 10px; font-family: "宋体"; font-size: 12px; float: right;
+}
+#footerNewWrapper {
+	background: url("images/bg_footer.gif") repeat-x top rgb(255, 255, 255); width: 100%; height: 250px; text-align: center; overflow: hidden; font-size: 12px; display: block;
+}
+ul#footerNewMenu {
+	padding: 30px 0px 15px; overflow: hidden; display: block;
+}
+ul#footerNewMenu li {
+	background: url("images/border_grey_dot_line.gif") no-repeat right 3px; padding: 0px 15px 0px 12px; display: inline;
+}
+ul#footerNewMenu li.fix {
+	background: none; padding: 0px 0px 0px 12px;
+}
+#footerNew {
+	margin: 0px auto; width: 100%; line-height: 20px; overflow: hidden; display: block;
+}
+#footerNew a {
+	color: rgb(58, 129, 229);
+}

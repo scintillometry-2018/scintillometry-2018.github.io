@@ -1,0 +1,72 @@
+.views-exposed-form .views-exposed-widget {
+	padding: 0.5em 1em 0px 0px; float: left;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+	margin-top: 1.6em;
+}
+.views-exposed-form .form-item {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.views-exposed-form .form-submit {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.views-exposed-form label {
+	font-weight: bold;
+}
+.views-exposed-widgets {
+	margin-bottom: 0.5em;
+}
+html.js a.views-throbbing {
+	background: url("../images/status-active.gif") no-repeat right; padding-right: 18px;
+}
+html.js span.views-throbbing {
+	background: url("../images/status-active.gif") no-repeat right; padding-right: 18px;
+}
+div.view div.views-admin-links {
+	font-size: xx-small; margin-top: 1em; margin-right: 1em;
+}
+.block div.view div.views-admin-links {
+	margin-top: 0px;
+}
+div.view div.views-admin-links ul {
+	padding-left: 0px;
+}
+div.view div.views-admin-links li a {
+	color: rgb(204, 204, 204);
+}
+div.view div.views-admin-links li {
+	padding-bottom: 2px; z-index: 201;
+}
+div.view div.views-admin-links-hover a {
+	color: rgb(0, 0, 0);
+}
+div.view div.views-admin-links:hover a {
+	color: rgb(0, 0, 0);
+}
+div.view div.views-admin-links-hover {
+	background: none;
+}
+div.view div.views-admin-links:hover {
+	background: none;
+}
+div.view div.views-admin-links a::before {
+	content: "[";
+}
+div.view div.views-admin-links a::after {
+	content: "]";
+}
+div.view div.views-hide {
+	display: none;
+}
+div.view div.views-hide-hover {
+	display: block; position: absolute; z-index: 200;
+}
+div.view:hover div.views-hide {
+	display: block; position: absolute; z-index: 200;
+}
+div.view:hover div.views-hide {
+	margin-top: -1.5em;
+}
+.views-view-grid tbody {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
